@@ -1,0 +1,53 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: yellow;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+
+}
+
+.title{
+  text-align: center;
+}
+
+.remover{
+  background-color: black;
+  color: yellow;
+  text-align: center;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  font-size: large;
+}
+
+.remover:hover{
+  background-color: #27ae60;
+  color: yellow(0, 0, 0);
+  text-align: center;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  font-size: large;
+}
